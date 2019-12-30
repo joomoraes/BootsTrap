@@ -1,0 +1,1373 @@
+<html>
+    <head>
+        <title>GERADOR BOOTSTRAP</title>
+        <meta name="author" content="Joao Pedro">
+        <meta name="keywords" content="bootstrap codigos">
+        <meta name="bootstrap" content="Bootstrap gerador codigos prontos">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/bootstrap-logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="_css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    
+    <body id="trocar">
+        
+            <img src="img/bootstrap-social.png" class="img-responsive"> 
+        
+            <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12"  align="center">
+                
+        <nav class="navbar navbar-default">
+            <section class="container">
+                <div class="navbar-header">
+                    <button type="button"
+                            class="navbar-toggle collapsed"
+                            data-toggle="collapse"
+                            data-target="#movelmenu"
+                            aria-expanded="false">
+
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                      
+                    
+                    <a href="https://github.com/joomoraes/BootsTrap" class="navbar-brand">
+                        GIT HUB<span class="icon-bar"> <img class="img" src="img/githublog.png"></span>
+                    </a>
+                </div>
+
+                
+                <div class="collapse navbar-collapse" id="movelmenu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" onclick="Mudarestado('grid')"><h3><span class="glyphicon glyphicon-asterisk"></span> GRID <span class="glyphicon glyphicon-asterisk"></span></h3></a>  
+                        </li>
+                        
+                        <li>
+                            <a href="#" onclick="Mudarestado('botoes')">
+                            <h3><span class="glyphicon glyphicon-remove-sign"></span> BOTÕES <span class="glyphicon glyphicon-remove-sign"></span></h3>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" onclick="Mudarestado('formulario')"><h3><span class="glyphicon glyphicon-list-alt"></span> FORMULÁRIOS <span class="glyphicon glyphicon-list-alt"></span></h3></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" onclick="Mudarestado('navegacao')"><h3><span class="glyphicon glyphicon-duplicate"></span> NAVEGAÇÃO <span class="glyphicon glyphicon-duplicate"></span></h3></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" onclick="Mudarestado('paineis')"><h3><span class="glyphicon glyphicon-blackboard"></span> PAINÉIS <span class="glyphicon glyphicon-blackboard"></span></h3></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" onclick="Mudarestado('carrosel')"><h3><span class="glyphicon glyphicon-film"></span> CARROSEL <span class="glyphicon glyphicon-film"></span></h3></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="Mudarestado('tabela')">
+                            <h3><span class="glyphicon glyphicon-th-list"></span> TABELAS <span class="glyphicon glyphicon-th-list"></span></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="Mudarestado('comunidade')"><h3><span class="glyphicon glyphicon-plus"></span> COMUNIDADE <span class="glyphicon glyphicon-plus"></span></h3></a>
+                        </li>   
+                    </ul>
+                </div>
+            </section>
+        </nav>
+        <!-- FIM DO NAVBAR -->
+                
+        
+            
+        <!-- INICIO DAS HIDEDIV'S -->
+                <!-- GRID -->
+                <div class="gridM1 container-fluid" id="grid" style="display:none">
+                    <div class="row">
+                        <div class="container-fluid">
+                        <div class="col-sm-12">
+                            <h2>SEPARAÇÃO DE COLUNAS</h2>
+                            <p>No bootstrap a grid é composta por 12 colunas(col) e várias linhas(row), desta forma pode-se atribuir da forma que você vê abaixo, e divindo seus valores com a soma que sempre deve dar 12</p>
+                        </div>
+                        </div>
+                        <div class="grid1 col-sm-3"><h3>col-sm-3</h3></div>
+                        <div class="grid1 col-sm-3"><h3>col-sm-3</h3></div>
+                        <div class="grid1 col-sm-3"><h3>col-sm-3</h3></div>
+                        <div class="grid1 col-sm-3"><h3>col-sm-3</h3></div> 
+                        
+                        <!-- BUTTON -->
+                        <button onclick="Mudarestado('codioGrid1')" class="btn btn-primary "><span class="glyphicon glyphicon-asterisk"></span></button>
+                        
+                        <div id="codioGrid1">
+                            <p>
+                                &lt;div class="col-sm-3">&lt;h3> col-sm-3&lt;/h3>&lt;/div><br>
+                                &lt;div class="col-sm-3">&lt;h3>col-sm-3&lt;/h3>&lt;/div><br>
+                                &lt;div class="col-sm-3">&lt;h3>col-sm-3&lt;/h3>&lt;/div><br>
+                                &lt;div class="col-sm-3">&lt;h3>col-sm-3&lt;/h3>&lt;/div><br>
+                            </p>
+                        </div>
+                        
+                        </div>
+                        <!--FIM DA GRID 1 -->
+                        <!-- GRID 2 -->
+                        <div class="row">
+                            <div class="grid1 col-sm-6"><h3>col-sm-6</h3></div>
+                            <div class="grid1 col-sm-6"><h3>col-sm-6</h3></div>
+                        </div>
+                        <!-- BUTTON -->
+                        <button onclick="Mudarestado('codioGrid2')" class="btn btn-primary "><span class="glyphicon glyphicon-asterisk"></span></button>
+                        <div id="codioGrid2">
+                            <p>
+                                    &lt;div class="col-sm-6">&lt;h3>col-sm-6&lt;/h3>&lt;/div><br>
+                                    &lt;div class="col-sm-6">&lt;h3>col-sm-6&lt;/h3>&lt;/div><br>
+                            </p>
+                        </div>
+                        <!--FIM DA GRID 2 -->
+                        <!-- GRID 3 -->
+                        <div class="row">
+                            <div class="grid1 col-sm-12"><h3>col-sm-12</h3></div>
+                        </div>
+                    
+                        <button onclick="Mudarestado('codioGrid3')" class="btn btn-primary "><span class="glyphicon glyphicon-asterisk"></span></button>
+                        
+                        <div id="codioGrid3">
+                            <p>&lt;div class="col-sm-12">&lt;h3>col-sm-12&lt;/h3>&lt;/div></p>
+                        </div>
+                        <!--FIM DA GRID 3 -->
+                </div>
+               
+                <!-- FIM DA GRID -->
+                <!-- INICIO BUTTONS -->
+                
+                <div id="botoes" class="buttonsM1 container-fluid" style="display:none">
+                    <div class="col-sm-12">
+                            <h2>CRIAÇÃO DE BUTTONS</h2>
+                            <p>No bootstrap a atribuição de botões usa a palavra reservada "btn" e apartir dela, é construida as demais caractéristicas que podem várias entre tamanho, cor, ação...</p>
+                    </div>
+                    <!-- BTN1 INICIO -->
+                    <div class="row">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-info">Info</button>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn1')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn1">
+                        <p>
+                            &lt;button type="button" class="btn btn-primary">Primary&lt;/button><br>
+                            &lt;button type="button" class="btn btn-success">Success&lt;/button><br>
+                            &lt;button type="button" class="btn btn-danger">Danger&lt;/button><br>
+                            &lt;button type="button" class="btn btn-warning">Warning&lt;/button><br>
+                            &lt;button type="button" class="btn btn-info">Info&lt;/button>
+                        </p>
+                    </div>
+                    <!-- fim btn1 -->
+                    <!-- BTN2 INICIO -->
+                    <div class="row">
+                        <a class="btn btn-primary" href="#" role="button">Link</a>
+                        <button class="btn btn-primary" type="submit">Button</button>
+                        <input class="btn btn-primary" type="button" value="Input">
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn2')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn2">
+                        <p>
+                        &lt;a class="btn btn-primary" href="#" role="button">Link&lt;/a><br>
+                        &lt;button class="btn btn-primary" type="submit">Button&lt;/button><br>
+                        &lt;input class="btn btn-primary" type="button" value="Input"><br>
+                        &lt;input class="btn btn-primary" type="submit" value="Submit"><br>
+                        &lt;input class="btn btn-primary" type="reset" value="Reset"><br>
+                        </p>
+                    </div>
+                    <!-- fim btn2 -->
+                    <!-- INICIO BTN3 -->
+                    <div class="row">
+                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                        <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn3')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn3">
+                        <p>
+                            &lt;button type="button" class="btn btn-primary btn-lg">Large button&lt;/button><br>
+                            &lt;button type="button" class="btn btn-secondary btn-lg">Large button&lt;/button>
+                        </p>
+                    </div>
+                    <!--fim btn3 -->
+                    <!-- INICIO BTN4 -->
+                    <div class="row">
+                        <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn4')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn4">
+                        <p>
+                            &lt;button type="button" class="btn btn-primary btn-sm">Small button&lt;/button><br>
+                            &lt;button type="button" class="btn btn-secondary btn-sm">Small button&lt;/button>
+                        </p>
+                    </div>
+                    <!-- fim btn4 -->
+                    <!-- INICIO BTN5 -->
+                    <div class="row">
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn5')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn5">
+                        <p>
+                        &lt;button type="button" class="btn btn-primary btn-lg btn-block">Block level button&lt;/button><br>
+                        &lt;button type="button" class="btn btn-secondary btn-lg btn-block">Block level button&lt;/button>
+                        </p>
+                    </div>
+                    <!-- fim btn5 -->
+                    <!-- INICIO BTN6 -->
+                    <div class="row">
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn6')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn6">
+                        <p>
+                            &lt;a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link&lt;/a><br>
+                            &lt;a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link&lt;/a>
+                        </p>
+                    </div>
+                    <!-- fim btn6 -->
+                    <!-- INICIO BTN7 -->
+                    <div class="row">
+                        <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+                        <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn7')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn7">
+                    <p>
+                        &lt;button type="button" class="btn btn-lg btn-primary" disabled>Primary button&lt;/button><br>
+                        &lt;button type="button" class="btn btn-secondary btn-lg" disabled>Button&lt;/button>
+                    </p>
+                    </div>
+                    <!-- fim btn7 -->
+                    <!-- INICIO BTN8 -->
+                    <div class="row">
+                        <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>
+                        <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link</a>
+                    </div>
+                    
+                    <button onclick="Mudarestado('buttonsBtn8')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="buttonsBtn8">
+                        <p>
+                            &lt;a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link&lt;/a><br>
+                            &lt;a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link&lt;/a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FIM BUTTON -->
+                <!-- INICIO FORMULARIO -->
+                
+                <div id="formulario" class="formularioM1 container-fluid" style="display:none">
+                    <!-- INICIO FORM1 -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>FORMULÁRIOS</h2>
+                            <p>No bootstrap formulários são responsivos, e podem atribuir caractéristicas padrões em suas box e campos de preenchimento, assim como envio de informações com submit.</p>
+                        </div>
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                          </div>
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>  
+                    
+                    <button onclick="Mudarestado('formularioForm1')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm1">
+                        <p>
+                            &lt;form><br>
+                              &lt;div class="form-group">
+                                &lt;label for="exampleInputEmail1">Endereço de email&lt;/label><br>
+                                &lt;input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                                &lt;small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.&lt;/small>
+                              &lt;/div><br>
+                              &lt;div class="form-group">
+                                &lt;label for="exampleInputPassword1">Senha&lt;/label>
+                                &lt;input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                              &lt;/div><br>
+                              &lt;div class="form-group form-check"><br>
+                                &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
+                                &lt;label class="form-check-label" for="exampleCheck1">Clique em mim&lt;/label><br>
+                              &lt;/div><br>
+                              &lt;button type="submit" class="btn btn-primary">Enviar&lt;/button><br>
+                            &lt;/form>
+                        </p>
+                        
+                    </div>
+                    
+                    <!-- fim form1 -->
+                    <!-- INICIO FORM2 -->
+                    
+                    <div class="row">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Select de exemplo</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect2">Exemplo de select múltiplo</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm2')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm2">
+                        <p>
+                        &lt;form><br>
+                          &lt;div class="form-group"><br>
+                            &lt;label for="exampleFormControlInput1">Endereço de email&lt;/label><br>
+                            &lt;input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com"><br>
+                          &lt;/div><br>
+                          &lt;div class="form-group"><br>
+                            &lt;label for="exampleFormControlSelect1">Select de exemplo&lt;/label><br>
+                            &lt;select class="form-control" id="exampleFormControlSelect1"><br>
+                              &lt;option>1&lt;/option><br>
+                              &lt;option>2&lt;/option><br>
+                              &lt;option>3&lt;/option><br>
+                              &lt;option>4&lt;/option><br>
+                              &lt;option>5&lt;/option><br>
+                            &lt;/select><br>
+                          &lt;/div><br>
+                          &lt;div class="form-group"><br>
+                            &lt;label for="exampleFormControlSelect2">Exemplo de select múltiplo&lt;/label><br>
+                            &lt;select multiple class="form-control" id="exampleFormControlSelect2"><br>
+                              &lt;option>1&lt;/option><br>
+                              &lt;option>2&lt;/option><br>
+                              &lt;option>3&lt;/option><br>
+                              &lt;option>4&lt;/option><br>
+                              &lt;option>5&lt;/option><br>
+                            &lt;/select><br>
+                          &lt;/div><br>
+                          &lt;div class="form-group"><br>
+                            &lt;label for="exampleFormControlTextarea1">Exemplo de textarea&lt;/label><br>
+                            &lt;textarea class="form-control" id="exampleFormControlTextarea1" rows="3">&lt;/textarea><br>
+                          &lt;/div><br>
+                        &lt;/form><br>
+                        </p>
+                    </div>
+                    
+                    <!-- fim form2 -->
+                    <!-- INICIO FORM3 -->
+                    
+                    <div class="row">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlFile1">Exemplo de input de arquivo</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                          </div>
+                        </form>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm3')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm3">
+                        <p>
+                            &lt;form><br>
+                              &lt;div class="form-group"><br>
+                                &lt;label for="exampleFormControlFile1">Exemplo de input de arquivo&lt;/label><br>
+                                &lt;input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
+                              &lt;/div><br>
+                            &lt;/form><br>
+                        </p>
+                    </div>
+                    
+                    <!-- fim form3 -->
+                    <!-- INICIO FORM4 -->
+                    <div class="row">
+                        <input class="forlg form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                        <input class="form-control" type="text" placeholder="Input padrão">
+                        <input class="forsm form-control form-control-sm" type="text" placeholder=".form-control-sm">
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm4')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm4">
+                        <p>
+                            &lt;input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"><br>
+                            &lt;input class="form-control" type="text" placeholder="Input padrão"><br>
+                            &lt;input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+                        </p>
+                    </div>
+                    <!-- fim form4 -->
+                    <!-- INICIO FORM5 -->
+                    <div class="row">
+                        <form>
+                            <select class="form1 form-control form-control-lg">
+                              <option>Select grande</option>
+                            </select>
+                            <select class="form form-control">
+                              <option>Select padrão</option>
+                            </select>
+                            <select class="form2 form-control form-control-sm">
+                              <option>Select pequeno</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm5')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm5">
+                        <p>
+                            &lt;select class="form-control form-control-lg"><br>
+                                &lt;option>Select grande&lt;/option><br>
+                            &lt;/select><br>
+                            &lt;select class="form-control"><br>
+                                &lt;option>Select padrão&lt;/option><br>
+                            &lt;/select><br>
+                            &lt;select class="form-control form-control-sm"><br>
+                                &lt;option>Select pequeno&lt;/option><br>
+                            &lt;/select>
+                        </p>
+                    </div>
+                    <!-- fim form5 -->
+                    <!-- INICIO FORM6 -->
+                    <div class="row">
+                        <form>
+                          <div class="form-group">
+                            <label for="formControlRange">Exemplo de input range</label>
+                            <input type="range" class="form-control-range" id="formControlRange">
+                          </div>
+                        </form>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm6')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm6">
+                        <p>
+                            &lt;form><br>
+                              &lt;div class="form-group"><br>
+                                &lt;label for="formControlRange">Exemplo de input range&lt;/label><br>
+                                &lt;input type="range" class="form-control-range" id="formControlRange"><br>
+                              &lt;/div><br>
+                            &lt;/form><br>
+                        </p>
+                    </div>
+                    <!-- fim form6 -->
+                    <!-- INICIO FORM7 -->
+                    <div class="row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Checkbox padrão
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                          <label class="form-check-label" for="defaultCheck2">
+                            Checkbox desativado
+                          </label>
+                        </div>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm7')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm7">
+                        <p>
+                            &lt;div class="form-check"><br>
+                              &lt;input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><br>
+                              &lt;label class="form-check-label" for="defaultCheck1"><br>
+                                Checkbox padrão
+                              &lt;/label><br>
+                            &lt;/div><br>
+                            &lt;div class="form-check"><br>
+                              &lt;input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled><br>
+                              &lt;label class="form-check-label" for="defaultCheck2"><br>
+                                Checkbox desativado
+                              &lt;/label><br>
+                            &lt;/div><br>
+                        </p>
+                    </div>
+                    <!-- fim form7 -->
+                    <!-- INICIO FORM8 -->
+                    <div class="row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Radio padrão
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                          <label class="form-check-label" for="exampleRadios2">
+                            Segundo radio padrão
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                          <label class="form-check-label" for="exampleRadios3">
+                            Radio desativado
+                          </label>
+                        </div>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm8')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm8">
+                        <p>
+                            &lt;div class="form-check"><br>
+                          &lt;nput class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked><br>
+                          &lt;label class="form-check-label" for="exampleRadios1"><br>
+                            Radio padrão
+                          &lt;/label><br>
+                        &lt;/div><br>
+                        &lt;div class="form-check"><br>
+                          &lt;input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2"><br>
+                          &lt;label class="form-check-label" for="exampleRadios2"><br>
+                            Segundo radio padrão
+                          &lt;/label><br>
+                        &lt;/div><br>
+                        &lt;div class="form-check"><br>
+                          &lt;input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled><br>
+                          &lt;label class="form-check-label" for="exampleRadios3"><br>
+                            Radio desativado
+                          &lt;/label><br>
+                        &lt;/div><br> 
+                        </p>
+                    </div>
+                     <!-- fim form8 -->
+                    <!-- INICIO FORM9 -->
+                    <div class="row">
+                        <form>
+                          <div class="form-row">
+                            <div class="col-sm-6">
+                              <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col-sm-6">
+                              <input type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                    
+                    <button onclick="Mudarestado('formularioForm9')" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    
+                    <div id="formularioForm9">
+                        <p>
+                            &lt;form>
+                              &lt;div class="form-row">
+                                &lt;div class="col-sm-6">
+                                  &lt;input type="text" class="form-control" placeholder="Nome">
+                                &lt;/div>
+                                &lt;div class="col-sm-6">
+                                  &lt;input type="text" class="form-control" placeholder="Sobrenome">
+                                &lt;/div>
+                              &lt;/div>
+                            &lt;/form>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FIM FORMULARIO -->
+                <!-- INCIO NAVEGAÇÃO -->
+                
+                <div id="navegacao" class="navegacaoM1 container-fluid" style="display:none">
+                    <div class="col-sm-12">
+                        <h2>FORMULÁRIOS</h2>
+                        <p>No bootstrap formulários são responsivos, e podem atribuir caractéristicas padrões em suas box e campos de preenchimento, assim como envio de informações com submit.</p>
+                    </div>
+                    <!-- INICIO NAV1 -->
+                    <div class="row"></div>    
+                    <nav class="navbar navbar-default">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">Page 1</a></li>
+                          <li><a href="#">Page 2</a></li>
+                          <li><a href="#">Page 3</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                    
+                    <button onclick="Mudarestado('navegacaoM1')" class="btn btn-primary "><span class="glyphicon glyphicon-duplicate"></span></button>
+                    
+                    <div id="navegacaoM1">
+                        <p>
+                           &lt;nav class="navbar navbar-default"><br>
+                            &lt;div class="container-fluid"><br>
+                                &lt;div class="navbar-header"><br>
+                                  &lt;a class="navbar-brand" href="#">WebSiteName&lt;/a><br>
+                                &lt;/div><br>
+                            &lt;ul class="nav navbar-nav"><br>
+                              &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li><br>
+                              &lt;li>&lt;a href="#">Page 1&lt;/a>&lt;/li><br>
+                              &lt;li>&lt;a href="#">Page 2&lt;/a>&lt;/li><br>
+                              &lt;li>&lt;a href="#">Page 3&lt;/a>&lt;/li><br>
+                            &lt;/ul><br>
+                      &lt;/div><br>
+                    &lt;/nav><br> 
+                        </p>
+                    </div>
+                    <!-- fim do nav1 -->
+                    <!-- INICIO NAV2 -->
+                    <div class="row"></div>
+                    <nav class="navbar navbar-inverse">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">Page 1</a></li>
+                          <li><a href="#">Page 2</a></li>
+                          <li><a href="#">Page 3</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                    
+                    <button onclick="Mudarestado('navegacaoM2')" class="btn btn-primary "><span class="glyphicon glyphicon-duplicate"></span></button>
+                    
+                    <div id="navegacaoM2">
+                        <p>
+                        &lt;nav class="navbar navbar-inverse"><br>
+                            &lt;div class="container-fluid"><br>
+                                &lt;div class="navbar-header"><br>
+                                    &lt;a class="navbar-brand" href="#">WebSiteName&lt;/a><br>
+                                &lt;/div><br>
+                        &lt;ul class="nav navbar-nav"><br>
+                          &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li><br>
+                          &lt;li>&lt;a href="#">Page 1&lt;/a>&lt;/li><br>
+                          &lt;li>&lt;a href="#">Page 2&lt;/a>&lt;/li><br>
+                          &lt;li>&lt;a href="#">Page 3&lt;/a>&lt;/li><br>
+                        &lt;/ul><br>
+                      &lt;/div><br>
+                    &lt;/nav><br>
+                        </p>
+                    </div>
+                    <!-- fim do nav2 -->
+                    <!-- INICIO NAV3 -->
+                    
+                    <nav class="navbar navbar-inverse">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Page 1-1</a></li>
+                              <li><a href="#">Page 1-2</a></li>
+                              <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Page 2</a></li>
+                          <li><a href="#">Page 3</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                    
+                    <button onclick="Mudarestado('navegacaoM3')" class="btn btn-primary "><span class="glyphicon glyphicon-duplicate"></span></button>
+                    
+                    <div id="navegacaoM3">
+                        <p>
+                          &lt;nav class="navbar navbar-inverse"><br>
+                              &lt;div class="container-fluid"><br>
+                                &lt;div class="navbar-header"><br>
+                                  &lt;a class="navbar-brand" href="#">WebSiteName&lt;/a><br>
+                                &lt;/div><br>
+                                &lt;ul class="nav navbar-nav"><br>
+                                  &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li><br>
+                                  &lt;li class="dropdown"><br>
+                                    &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                                    &lt;span class="caret">&lt;/span>&lt;/a><br>
+                                    &lt;ul class="dropdown-menu"><br>
+                                      &lt;li>&lt;a href="#">Page 1-1&lt;/a>&lt;/li><br>
+                                      &lt;li>&lt;a href="#">Page 1-2&lt;/a>&lt;/li><br>
+                                      &lt;li>&lt;a href="#">Page 1-3&lt;/a>&lt;/li><br>
+                                    &lt;/ul><br>
+                                  &lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 2&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 3&lt;/a>&lt;/li><br>
+                                &lt;/ul><br>
+                              &lt;/div><br>
+                            &lt;/nav><br>  
+                        </p>
+                    </div>
+                    <!-- fim do nav3 -->
+                    <!-- INICIO NAV4 -->
+                    
+                    <nav class="navbar navbar-inverse">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">Page 1</a></li>
+                          <li><a href="#">Page 2</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                    
+                    <button onclick="Mudarestado('navegacaoM4')" class="btn btn-primary "><span class="glyphicon glyphicon-duplicate"></span></button>
+                    
+                    <div id="navegacaoM4">
+                        <p>
+                            &lt;nav class="navbar navbar-inverse"><br>
+                              &lt;div class="container-fluid"><br>
+                                &lt;div class="navbar-header"><br>
+                                  &lt;a class="navbar-brand" href="#">WebSiteName&lt;/a><br>
+                                &lt;/div><br>
+                                &lt;ul class="nav navbar-nav"><br>
+                                  &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 1&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 2&lt;/a>&lt;/li><br>
+                                &lt;/ul><br>
+                                &lt;ul class="nav navbar-nav navbar-right"><br>
+                                  &lt;li>&lt;a href="#">&lt;span class="glyphicon glyphicon-user">&lt;/span> Sign Up&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">&lt;span class="glyphicon glyphicon-log-in">&lt;/span> Login&lt;/a>&lt;/li><br>
+                                &lt;/ul><br>
+                              &lt;/div><br>
+                            &lt;/nav><br>
+                        </p>
+                    </div>
+                    
+                    <!-- fim do nav4 -->
+                    <!-- INICIO NAV5 -->
+                    <nav class="navbar navbar-inverse">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">Page 1</a></li>
+                          <li><a href="#">Page 2</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                      </div>
+                    </nav>
+                    
+                    <button onclick="Mudarestado('navegacaoM5')" class="btn btn-primary "><span class="glyphicon glyphicon-duplicate"></span></button>
+                    
+                    <div id="navegacaoM5">
+                        <p>
+                            &lt;nav class="navbar navbar-inverse"><br>
+                              &lt;div class="container-fluid"><br>
+                                &lt;div class="navbar-header"><br>
+                                  &lt;a class="navbar-brand" href="#">WebSiteName&lt;/a><br>
+                                &lt;/div><br>
+                                &lt;ul class="nav navbar-nav"><br>
+                                  &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 1&lt;/a>&lt;/li><br>
+                                  &lt;li>&lt;a href="#">Page 2&lt;/a>&lt;/li><br>
+                                &lt;/ul><br>
+                                &lt;form class="navbar-form navbar-left" action="/action_page.php"><br>
+                                  &lt;div class="form-group"><br>
+                                    &lt;input type="text" class="form-control" placeholder="Search"><br>
+                                  &lt;/div><br>
+                                  &lt;button type="submit" class="btn btn-default">Submit&lt;/button><br>
+                                &lt;/form><br>
+                              &lt;/div><br>
+                            &lt;/nav><br>
+                        </p>
+                    </div>
+                    <!-- fim do nav5 -->
+                </div>
+                
+                <!-- FIM NAVEGAÇÃO -->
+                <!-- INICIO PAINEIS -->
+                
+                <div id="paineis" class="paineisM1 container-fluid" style="display:none">
+                    
+                    <!-- INICIO PAN1 -->
+                    <div class="col-sm-12">
+                        <h2>PAINÉIS</h2>
+                        <p>No bootstrap os paíneis são muito úteis como informativos, e também são responsivos, já atribuindo caractéristicas de cards com informações de rodapés(footers) e cabeçalho(header).</p>
+                    </div>
+                    <div class="row">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">Panel Heading</div>
+                          <div class="panel-body">Panel Content</div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="Mudarestado('painelM1')" class="btn btn-primary "><span class="glyphicon glyphicon-blackboard"></span></button>
+                    
+                    <div id="painelM1">
+                        <p>
+                            &lt;div class="panel panel-default"><br>
+                            &lt;div class="panel-heading">Panel Heading&lt;/div><br>
+                            &lt;div class="panel-body">Panel Content&lt;/div><br>
+                            &lt;/div><br>
+                        </p>
+                    </div>
+                    <!-- fim do pan1 -->
+                    <!-- INICIO PAN2 -->
+                    <div class="row">
+                        <div class="panel-group">
+                          <div class="panel panel-primary">
+                            <div class="panel-body">Panel Content</div>
+                          </div>
+                          <div class="panel panel-primary">
+                            <div class="panel-body">Panel Content</div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="Mudarestado('painelM2')" class="btn btn-primary "><span class="glyphicon glyphicon-blackboard"></span></button>
+                    
+                    <div id="painelM2">
+                        <p>
+                            &lt;div class="row"><br>
+                                &lt;div class="panel-group"><br>
+                                    &lt;div class="panel panel-primary"><br>
+                                        &lt;div class="panel-body">Panel Content&lt;/div><br>
+                                    &lt;/div><br>
+                                    &lt;div class="panel panel-primary"><br>
+                                        &lt;div class="panel-body">Panel Content&lt;/div><br>
+                                    &lt;/div><br>
+                                &lt;/div><br>
+                           &lt;/div><br>
+                        </p>
+                    </div>
+                    <!-- fim do pan2 -->
+                    <!-- INICIO PAN3 -->
+                    <div class="row">
+                        <div class="panel panel-primary">
+                          <div class="panel-body">Panel Content</div>
+                          <div class="panel-footer">Panel Footer</div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="Mudarestado('painelM3')" class="btn btn-primary "><span class="glyphicon glyphicon-blackboard"></span></button>
+                    
+                    <div id="painelM3">
+                        <p>
+                            &lt;div class="row"><br>
+                                &lt;div class="panel panel-primary"><br>
+                                    &lt;div class="panel-body">Panel Content&lt;/div><br>
+                                    &lt;div class="panel-footer">Panel Footer&lt;/div><br>
+                                &lt;/div><br>
+                            &lt;/div><br>
+                        </p>
+                    </div>
+                    <!-- fim do pan3 -->
+                </div>
+                
+                <!-- FIM PAINEIS -->
+                <!-- INICIO CARROSEL -->
+                
+                <div id="carrosel" class="carroselM1  container-fluid" style="display:none">
+                    <div class="col-sm-12">
+                        <h2>CARROSEL</h2>
+                        <p>No bootstrap os carroseis são muito úteis para mostrar uma sequência de rolamento de imagens com guia de navegação e botões auxiliares para que as imagens sejam passadas pro lado esquerdo e direito.</p>
+                    </div>
+                    <div class="container-fluid">
+                    <!-- inicio carousel -->
+                        <div class="carousel slide" data-ride="carousel" id="galeria" >
+                            
+                             <ol class="carousel-indicators">
+                                <li data-target="galeria" data-slide-to="0" class="active"></li>
+                                <li data-target="galeria" data-slide-to="1"></li>
+                                <li data-target="galeria" data-slide-to="2"></li>
+                                <li data-target="galeria" data-slide-to="3"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="_img/img_taster.png" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                    <img src="_img/img_taster2.png" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                    <img src="_img/img_taster3.png" class="img-responsive">
+                                </div>
+                                <div class="item">
+                                    <img src="_img/img_taster4.png" class="img-responsive">
+                                </div>
+                            </div><!-- carousel-inner -->
+
+                            <a class="left carousel-control" 
+                               href="#galeria" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+
+                            <a class="right carousel-control" 
+                               href="#galeria" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>                
+                        </div>
+                        <!-- fim do carousel -->
+                    </div>
+                    
+                    <button onclick="Mudarestado('carouselM1')" class="btn btn-primary "><span class="glyphicon glyphicon-film"></span></button>
+                    
+                    <div id="carouselM1">
+                        <p>
+                            &lt;div class="carousel slide" data-ride="carousel" id="galeria" ><br>
+                                 &lt;ol class="carousel-indicators"><br>
+                                    &lt;li data-target="galeria" data-slide-to="0" class="active">&lt;/li><br>
+                                    &lt;li data-target="galeria" data-slide-to="1">&lt;/li><br>
+                                    &lt;li data-target="galeria" data-slide-to="2">&lt;/li><br>
+                                    &lt;li data-target="galeria" data-slide-to="3">&lt;/li><br>
+                                &lt;/ol><br>
+
+                                &lt;div class="carousel-inner"><br>
+                                    &lt;div class="item active"><br>
+                                        &lt;img src="_img/img_taster.png" class="img-responsive"><br>
+                                    &lt;/div><br>
+                                    &lt;div class="item"><br>
+                                        &lt;img src="_img/img_taster2.png" class="img-responsive"><br>
+                                    &lt;/div><br>
+                                    &lt;div class="item"><br>
+                                        &lt;img src="_img/img_taster3.png" class="img-responsive"><br>
+                                    &lt;/div><br>
+                                    &lt;div class="item"><br>
+                                        &lt;img src="_img/img_taster4.png" class="img-responsive"><br>
+                                    &lt;/div><br>
+                                &lt;/div><!-- carousel-inner -->
+
+                                &lt;a class="left carousel-control" 
+                                   href="#galeria" role="button" data-slide="prev"><br>
+                                    &lt;span class="glyphicon glyphicon-chevron-left">&lt;/span><br>
+                                &lt;/a><br>
+
+                                &lt;a class="right carousel-control" 
+                                   href="#galeria" role="button" data-slide="next"><br>
+                                    &lt;span class="glyphicon glyphicon-chevron-right">&lt;/span><br>
+                                &lt;/a><br>              
+                            &lt;/div><br>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FIM CARROSEL -->
+                <!-- INICIO TABELA -->
+                
+                <div id="tabela" class="tabelaM1 container-fluid" style="display:none">
+                    <div class="col-sm-12">
+                        <h2>TABELAS</h2>
+                        <p>No bootstrap tabelas são muito úteis, comercialmente também, sua aplicação serve para mostrar uma relação de info-gráficos, ou comparação de objetos.</p>
+                    </div>
+                    <!-- INICIO TABLE1 -->
+                    <div class="row">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    
+                    <button onclick="Mudarestado('tabelaM1')" class="btn btn-primary "><span class="glyphicon glyphicon-th-list"></span></button>
+                    
+                    <div id="tabelaM1">
+                        <p>
+                            &lt;table class="table"><br>
+                              &lt;thead><br>
+                                &lt;tr><br>
+                                  &lt;th scope="col">#&lt;/th><br>
+                                  &lt;th scope="col">First&lt;/th><br>
+                                  &lt;th scope="col">Last&lt;/th><br>
+                                  &lt;th scope="col">Handle&lt;/th><br>
+                                &lt;/tr><br>
+                              &lt;/thead><br>
+                              &lt;tbody><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">1&lt;/th><br>
+                                  &lt;td>Mark&lt;/td><br>
+                                  &lt;td>Otto&lt;/td><br>
+                                  &lt;td>@mdo&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">2&lt;/th><br>
+                                  &lt;&lt;td>Jacob&lt;/td><br>
+                                  &lt;td>Thornton&lt;/td><br>
+                                  &lt;td>@fat&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">3&lt;/th><br>
+                                  &lt;td>Larry&lt;/td><br>
+                                  &lt;td>the Bird&lt;/td><br>
+                                  &lt;td>@twitter&lt;/td><br>
+                                &lt;/tr><br>
+                              &lt;/tbody><br>
+                            &lt;/table><br>
+                        </p>
+                    </div>
+                    <!-- fim table1 -->
+                    <!-- INICIO TABLE2 -->
+                    
+                    <div class="row">
+                        <table class="table">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table class="table">
+                          <thead class="thead-light">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    
+                    <button onclick="Mudarestado('tabelaM2')" class="btn btn-primary "><span class="glyphicon glyphicon-th-list"></span></button>
+                    
+                    <div id="tabelaM2">
+                        <p>
+                             &lt;table class="table"><br>
+                              &lt;thead class="thead-dark"><br>
+                                &lt;tr><br>
+                                  &lt;th scope="col">#&lt;/th><br>
+                                  &lt;th scope="col">First&lt;/th><br>
+                                  &lt;th scope="col">Last&lt;/th><br>
+                                  &lt;th scope="col">Handle&lt;/th><br>
+                                &lt;/tr><br>
+                              &lt;/thead><br>
+                              &lt;tbody><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">1&lt;/th><br>
+                                  &lt;td>Mark&lt;/td><br>
+                                  &lt;td>Otto&lt;/td><br>
+                                  &lt;td>@mdo&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">2&lt;/th><br>
+                                  &lt;td>Jacob&lt;/td><br>
+                                  &lt;td>Thornton&lt;/td><br>
+                                  &lt;td>@fat&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">3&lt;/th><br>
+                                  &lt;td>Larry&lt;/td><br>
+                                  &lt;td>the Bird&lt;/td><br>
+                                  &lt;td>@twitter&lt;/td><br>
+                                &lt;/tr><br>
+                              &lt;/tbody><br>
+                            &lt;/table><br>
+
+                            &lt;table class="table"><br>
+                              &lt;thead class="thead-light"><br>
+                                &lt;tr><br>
+                                  &lt;th scope="col">#&lt;/th><br>
+                                  &lt;th scope="col">First&lt;/th><br>
+                                  &lt;th scope="col">Last&lt;/th><br>
+                                  &lt;th scope="col">Handle&lt;/th><br>
+                                &lt;/tr><br>
+                              &lt;/thead><br>
+                              &lt;tbody><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">1&lt;/th><br>
+                                  &lt;td>Mark&lt;/td><br>
+                                  &lt;td>Otto&lt;/td><br>
+                                  &lt;td>@mdo&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">2&lt;/th><br>
+                                  &lt;td>Jacob&lt;/td><br>
+                                  &lt;td>Thornton&lt;/td><br>
+                                  &lt;td>@fat&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">3&lt;/th><br>
+                                  &lt;td>Larry&lt;/td><br>
+                                  &lt;td>the Bird&lt;/td><br>
+                                  &lt;td>@twitter&lt;/td><br>
+                                &lt;/tr><br>
+                              &lt;/tbody><br>
+                            &lt;/table><br>
+                        </p>
+                    </div>
+                    <!-- fim table2 -->
+                    <!-- INICIO TABLE3 -->
+                    
+                    <div class="row">
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    
+                    <button onclick="Mudarestado('tabelaM3')" class="btn btn-primary "><span class="glyphicon glyphicon-th-list"></span></button>
+                    
+                    <div id="tabelaM3">
+                        <p>
+                            &lt;table class="table table-striped"><br>
+                              &lt;thead><br>
+                                &lt;tr><br>
+                                  &lt;th scope="col">#&lt;/th><br>
+                                  &lt;th scope="col">First&lt;/th><br>
+                                  &lt;th scope="col">Last&lt;/th><br>
+                                  &lt;th scope="col">Handle&lt;/th><br>
+                                &lt;/tr><br>
+                              &lt;/thead><br>
+                              &lt;tbody><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">1&lt;/th><br>
+                                  &lt;td>Mark&lt;/td><br>
+                                  &lt;td>Otto&lt;/td><br>
+                                  &lt;td>@mdo&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">2&lt;/th><br>
+                                  &lt;td>Jacob&lt;/td><br>
+                                  &lt;td>Thornton&lt;/td><br>
+                                  &lt;td>@fat&lt;/td><br>
+                                &lt;/tr><br>
+                                &lt;tr><br>
+                                  &lt;th scope="row">3&lt;/th><br>
+                                  &lt;td>Larry&lt;/td><br>
+                                  &lt;td>the Bird&lt;/td><br>
+                                  &lt;td>@twitter&lt;/td><br>
+                                &lt;/tr><br>
+                              &lt;/tbody><br>
+                            &lt;/table><br>
+                        </p>
+                    </div>
+                    <!-- fim table3 -->
+                </div>
+                
+                <!-- FIM TABELA -->
+                <!-- INICIO COMUNIDADE -->
+                
+                <div id="comunidade" class="comunidade container-fluid" style="display:none">
+                    <div class="col-sm-3">
+                        <img src="img/bootstrap-logo.jpg" class="img img-responsive">
+                    </div>
+                    <div class="col-sm-9">
+                        <h2>GUIA DE INSTALAÇÃO BOOTSTRAP</h2>
+                        <p>Após baixar os pacotes do <b>bootstrap</b>, deve atribui-los a sua página <b>html</b> ou <b>php</b>, usando a tag <b>&lt;link></b>.</p>
+                    </div>
+                    <img src="_img/img_comunidade.png" class="img img-responsive">
+                    <br>
+                    <div class="col-sm-12">
+                        <p>
+                            Para realizar a importação dos arquivos de <b>javascript</b> ou 
+                            <b>jquery</b> se usa a tag <b>&lt;script></b>
+                        </p>
+                        <img src="_img/img_comunidade2.png" class="img img-responsive">
+                    </div>
+                    <a href="download/bootstrap-4.3.1-dist.zip" download><button class="btn btn-primary">DOWNLOAD</button></a>
+                    <br>
+                    <div class="bio row">
+                        <div class="col-md-3">
+                            <img src="_img/creator.jpg" class="img img-thumbnail img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-sm-4 col-md-4 col-xs-4">
+                                    <a href="https://www.facebook.com/joo.m.k.5"><img src="_img/facebook.png" class="img social  img-responsive"></a>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <a href="https://github.com/joomoraes"><img src="_img/git.png" class="img social  img-responsive"></a>
+                            </div>  
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <a href="https://www.instagram.com/joaopedro8279/?hl=pt-br"><img src="_img/instagran.png" class="img social  img-responsive"></a>
+                            </div>
+                        </div>
+                            <br>
+                            <br>
+                            <br>
+                        <div class="col-md-9"> 
+                            <P>
+                                <b>Estudante de ciência da computação e desenvolvimento de software.</b><br>
+                                Do <a href="http://ifmt.edu.br/">Campus Octayde Jorge, Ciências e Tecnólogia do Instituto Federal de Mato Grosso</a>
+                                <i>"Este projeto foi criado em prol da comunidade, em uma forma diferente de abordar o freamework de bootstrap, em um resumo das tags de html mais utilizadas por desenvolvedores web, como uma ferramenta para encontrar com mais facilidade a aplicação que você procura para o seu site responsivo."</i>
+                            </P>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                        <div class="col-md-12">
+                            <h3 class="colab">COLABORADORES</h3>
+                            <div class="col-xs-3">
+                                <a href="https://getbootstrap.com/"><img src="img/bootstrap-logo.jpg" class="img cola img-responsive"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="https://www.w3schools.com/"><img src="img/w3schools_logo.png" class="img cola img-responsive"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="http://ifmt.edu.br/"><img src="img/ifmt_logo.png" class="img cola img-responsive"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FIM COMUNIDADE -->
+        
+        <button class="btn btn-primary" data-target="#trocar"></button>
+        <!-- Fim do seu codigo -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="_js/script.js"></script>
+        </div>
+        
+        <div class="fot col-xs-6 col-md-6 col-xs-offset-3 col-sm-offset-5">
+            <small>Copyright © 2019 | <a href="https://www.icrc.org/pt/copyright-e-termos-de-uso">Termos de Uso</a></small>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+.grid1 {
+    border: 5px solid purple;
+}
+.buttonsM1,.gridM1,.formularioM1,.navegacaoM1,
+.paineisM1,.carroselM1,.tabelaM1,.comunidade {
+    width: 75%;
+    border-style: dotted;
+}
+.btn {
+    padding: 20px;
+    margin: 20px;
+}
+.form1{
+    height: 8%;
+}
+.form2{
+    height: 4%;
+}
+.forsm {
+    height: 8%;
+}
+.forgl {
+    height: 4%;
+}
+.bio{
+    border: 1px solid black opacity:0.35;;
+    
+}
+.social {
+    width: 50%;
+}
+.colab {
+    font-family: 'Anton', sans-serif;
+}
+.cola{
+    position: relative;
+    left: 65%;
+}

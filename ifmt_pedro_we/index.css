@@ -1,0 +1,40 @@
+.content {
+		margin-right: 70px;
+		color: white !important;
+}
+.nav-less {
+		height: 5%;
+}
+.acess {
+		width: 90%;
+}
+.img-bras {
+	max-width: 20%;
+}
+.btn-search {
+	background-color: #2f4f4f !important;
+	color: white;
+}
+.search-box {
+	left: 500px;	
+}
+
+.social-net {
+	max-width:10%;
+	margin-left: 501px;
+}
+
+p {
+	margin-left: 508px;
+}
+
+.img-noticia {
+	padding-bottom: 10px;
+}
+.carrousel {
+		max-width: 65% !important;
+}
+
+.crl {
+	padding-left: 130px;
+}
